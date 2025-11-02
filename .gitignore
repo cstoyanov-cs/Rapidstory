@@ -1,3 +1,7 @@
+# Added custom
+.rapidstory.db
+rapidstory.db
+BACKUP/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

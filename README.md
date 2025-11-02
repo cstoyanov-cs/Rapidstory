@@ -29,9 +29,6 @@ J'utilise ce logiciel en combinaison avec ble.sh qui est un script d'optimisatio
 - Pas de dépendances externes : tout est standard library (sqlite3, threading, difflib/rapidfuzz, etc.).
 - ble.sh dans mon cas (optionnel)
 
-   ```bash
-   ```
-
 ## Utilisation
 
 ### Mode Full-Screen (Ctrl+R)
