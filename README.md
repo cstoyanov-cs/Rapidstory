@@ -122,4 +122,3 @@ MIT © Clément Stoyanov – 2025
 **Enjoy the fastest, most beautiful Bash history experience you've ever had.**
 
 Star the repo if you like it — contributions welcome!
-```
