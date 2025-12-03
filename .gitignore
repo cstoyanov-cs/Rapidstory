@@ -1,0 +1,112 @@
+# RapidStory – .gitignore (2025)
+# =====================================
+
+# ── RapidStory user data (never commit) ─────────────────────
+# Base de données SQLite + fichiers temporaires
+rapidstory.db
+~/.local/share/rapidstory/
+# Dossier de cache / venv créé par pipx (invisible mais on bloque quand même)
+.pipx/
+pipx_venv/
+
+# ── Python / Packaging ───────────────────────────────────────
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+*.dist-info/
+*.whl
+
+# Virtual environments (si tu en crées un jour)
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller, pyoxidizer, etc.
+*.spec
+*.manifest
+*.exe
+
+# ── Editor / OS artefacts ─────────────────────────────────────
+# VS Code
+.vscode/
+!.vscode/settings.json.example   # si tu veux partager des settings
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list/
+tramp
+.\#*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+*.iws
+
+# Logs
+*.log
+logs/
+
+# Tests / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ruff / black cache
+.ruff_cache/
+
+# uv cache (si tu utilises uv directement)
+.uv_cache/
+
+# ── Personal / temporary files ───────────────────────────────
+# Fichiers temporaires divers
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Dossier de dev local (si tu as un dossier "dev" ou "tmp")
+tmp/
+temp/
